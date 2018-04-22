@@ -1,11 +1,13 @@
 
 
+const setMessage = require('../../hooks/set-message');
+
 module.exports = {
   before: {
     all: [],
     find: [],
     get: [],
-    create: [],
+    create: [ setMessage() ],
     update: [],
     patch: [],
     remove: []
