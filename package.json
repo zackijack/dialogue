@@ -1,7 +1,7 @@
 {
   "name": "dialogue",
   "description": "Real-time chat application",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/zackyjack/dialogue",
   "repository": {
     "type": "git",
