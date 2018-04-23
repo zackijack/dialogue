@@ -1,4 +1,4 @@
-# dialogue
+# Dialogue
 
 > Real-time chat application
 
@@ -13,12 +13,25 @@ Getting it up and running is as easy as 1, 2, 3.
     git clone https://github.com/zackyjack/dialogue
     cd dialogue; npm install
     ```
-
-3. Start your app
+3. Start the application
 
     ```
     npm start
     # or "npm run dev" for development
+    ```
+
+Or with Docker, this is even easier.
+1. Clone this repository and build the Docker image
+
+    ```sh
+    git clone https://github.com/zackyjack/dialogue
+    cd dialogue
+    docker build -t <your username>/dialogue .
+    ```
+2. Run the container
+
+    ```sh
+    docker run -p 3030:3030 -d <your username>/dialogue
     ```
 
 ## Usage
@@ -33,7 +46,7 @@ Or import collections into Postman with this [link](https://www.getpostman.com/c
 
 ## Testing
 
-Simply run `npm test` and all your tests in the `test/` directory will be run.
+Simply run `npm test` and all tests in the `test/` directory will be run.
 
 ## Changelog
 
