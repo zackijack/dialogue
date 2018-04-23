@@ -12,10 +12,12 @@ module.exports = function (options = {}) {
       throw new errors.BadRequest('A message mush have a text');
     }
 
+    const { user } = context.params;
     const { text } = data;
 
     context.data = {
       text,
+      userId: user._id,
       createdAt: new Date().getTime(),
     };
 
