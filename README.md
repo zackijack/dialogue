@@ -1,4 +1,5 @@
-# Dialogue
+![dialogue](https://raw.githubusercontent.com/zackyjack/dialogue/master/dialogue.png)
+[![Dependency Status](https://david-dm.org/atom/atom.svg)](https://david-dm.org/zackyjack/dialogue)
 
 > Real-time chat application
 
