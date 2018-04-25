@@ -1,4 +1,5 @@
 const { authenticate } = require('@feathersjs/authentication').hooks;
+const { disallow } = require('feathers-hooks-common');
 
 const setMessage = require('../../hooks/set-message');
 
@@ -10,9 +11,9 @@ module.exports = {
     find: [],
     get: [],
     create: [ setMessage() ],
-    update: [],
-    patch: [],
-    remove: []
+    update: [ disallow() ],
+    patch: [ disallow() ],
+    remove: [ disallow() ]
   },
 
   after: {

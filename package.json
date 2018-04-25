@@ -1,7 +1,7 @@
 {
   "name": "dialogue",
   "description": "Real-time chat application",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "homepage": "https://github.com/zackyjack/dialogue",
   "repository": {
     "type": "git",
@@ -44,6 +44,7 @@
     "@feathersjs/socketio": "^3.2.1",
     "compression": "^1.7.2",
     "cors": "^2.8.4",
+    "feathers-hooks-common": "^4.11.0",
     "feathers-nedb": "^3.0.0",
     "helmet": "^3.12.0",
     "nedb": "^1.8.0",
